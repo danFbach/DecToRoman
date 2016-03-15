@@ -16,7 +16,7 @@ public class Math {
 		
 		while(number >= 1000)
 		{			
-			Roman = Roman + "M";
+			Roman += "M";
 			number -= 1000;
 		}while(number >= 900)
 		{
@@ -24,7 +24,7 @@ public class Math {
 			number -= 900;
 		}while(number >= 500)
 		{
-			Roman = Roman + "D";
+			Roman += "D";
 			number -= 500;
 		}while(number >= 400)
 		{
